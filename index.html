@@ -9,9 +9,68 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"> 
   <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="dist/style.css">
+  <script src="https://kit.fontawesome.com/2d9f5ba26b.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | Chat App CSS Illustration</title>
 </head>
 <body>
+  <main class="container">
+    <div class="app">
+      <div class="header">
+        <a href="#" class="header__arrow fa-solid fa-angle-left" aria-label="Arrow"></a>
+        <a href="#" class="header__avatar">
+          <img src="images/avatar.jpg" alt="User Avatar" width="25" height="25">
+        </a>
+        <div class="header__username">
+          Samuel Green<br><span>Available to Walk</span>
+        </div>
+        <a href="#" class="header__dots fa-solid fa-ellipsis-vertical" aria-label="Three Dots"></a>
+      </div>
+
+      <div class="message">
+        <div class="message__left">
+          That sounds great. I’d be happy with that.
+        </div>
+
+        <div class="message__left">
+          Could you send over some pictures of your dog, please?
+        </div>
+
+        <div class="message__right message__right--img">
+          <img src="/images/dog-image-1.jpg" alt="A happy dog">
+          <img src="/images/dog-image-2.jpg" alt="A happy dog again">
+          <img src="/images/dog-image-3.jpg" alt="A dog holding a tree brance with its mouth">
+        </div>
+
+        <div class="message__right message__right--txt">
+          Here are a few pictures. She’s a happy girl!
+        </div>
+
+        <div class="message__right message__right--txt">
+          Can you make it?
+        </div>
+
+        <div class="message__left">
+          She looks so happy! The time we discussed works. How long shall I take her out for?
+        </div>
+
+        <form action="#" id="form-book"></form>
+
+        <div class="message__book">
+          <div class="message__book--mmcradio"></div>
+          <input type="radio" name="radio" id="radio_30" class="message__book--radio" form="form-book">
+          <label for="radio_30">30 minute walk</label>
+          <span>$29</span>
+        </div>
+
+        <div class="message__book">
+          <div class="message__book--mmcradio"></div>
+          <input type="radio" name="radio" id="radio_60" class="message__book--radio" form="form-book">
+          <label for="radio_60">1 hour walk</label>
+          <span>$49</span>
+        </div>
+      </div>
   
+    </div>
+  </main>
 </body>
 </html>
