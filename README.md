@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://github.com/kentmichael/chat-app-css-illustration
+- Live Site URL: https://kentmichael.github.io/chat-app-css-illustration/
 
 ## My process
 
