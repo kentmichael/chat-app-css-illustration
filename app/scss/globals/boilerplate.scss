@@ -19,7 +19,7 @@ body {
   padding: 0;
   font-size: 1rem;
   
-  @include breakpoint(medium) {
+  @include breakpoint(large) {
     height: 100vh;
     display: grid;
     place-content: center;
