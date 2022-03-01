@@ -13,64 +13,70 @@
   <title>Frontend Mentor | Chat App CSS Illustration</title>
 </head>
 <body>
-  <main class="container">
+  <main class="container grid">
     <div class="app">
       <div class="header">
-        <a href="#" class="header__arrow fa-solid fa-angle-left" aria-label="Arrow"></a>
+        <a href="#" class="header__arrow fa-solid fa-chevron-left" aria-label="Arrow Left"></a>
         <a href="#" class="header__avatar">
           <img src="images/avatar.jpg" alt="User Avatar" width="25" height="25">
         </a>
         <div class="header__username">
-          Samuel Green<br><span>Available to Walk</span>
+         <a href="#">Samuel Green</a><br><span>Available to Walk</span>
         </div>
         <a href="#" class="header__dots fa-solid fa-ellipsis-vertical" aria-label="Three Dots"></a>
       </div>
 
       <div class="message">
-        <div class="message__left">
+        <div class="message__left message__left-txt1">
           That sounds great. I’d be happy with that.
         </div>
-
-        <div class="message__left">
+        <div class="message__left message__left-txt2">
           Could you send over some pictures of your dog, please?
         </div>
-
-        <div class="message__right message__right--img">
+        <div class="message__right message__right-img">
           <img src="/images/dog-image-1.jpg" alt="A happy dog">
           <img src="/images/dog-image-2.jpg" alt="A happy dog again">
           <img src="/images/dog-image-3.jpg" alt="A dog holding a tree brance with its mouth">
         </div>
-
-        <div class="message__right message__right--txt">
+        <div class="message__right message__right-txt1">
           Here are a few pictures. She’s a happy girl!
         </div>
-
-        <div class="message__right message__right--txt">
+        <div class="message__right message__right-txt2">
           Can you make it?
         </div>
-
-        <div class="message__left">
+        <div class="message__left message__left-txt3">
           She looks so happy! The time we discussed works. How long shall I take her out for?
         </div>
-
         <form action="#" id="form-book"></form>
-
-        <div class="message__book">
-          <div class="message__book--mmcradio"></div>
+        <div class="message__book message__book-1">
           <input type="radio" name="radio" id="radio_30" class="message__book--radio" form="form-book">
+          <div class="message__book--check"></div>
           <label for="radio_30">30 minute walk</label>
-          <span>$29</span>
+          <span class="message__book--price">$29</span>
         </div>
-
-        <div class="message__book">
-          <div class="message__book--mmcradio"></div>
+        <div class="message__book message__book-2">
           <input type="radio" name="radio" id="radio_60" class="message__book--radio" form="form-book">
+          <div class="message__book--check"></div>
           <label for="radio_60">1 hour walk</label>
-          <span>$49</span>
+          <span class="message__book--price">$49</span>
         </div>
       </div>
-  
+
+      <div class="input-section">
+        <form action="#" class="input">
+          <input type="text" name="" id="" aria-label="Message Input" placeholder="Type a message..." class="input__message" size="10" autofocus>
+          <a href="#" class="input__aright fa-solid fa-chevron-right" aria-label="Arrow Right"></a>
+          <input type="submit" value="" class="input__send">
+        </form>
+      </div>
+      
     </div>
+
+    <section aria-labelledby="Booking" class="book">
+      <h1 id="Booking">Simple booking</h1>
+      <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+    </section>
+    
   </main>
 </body>
 </html>

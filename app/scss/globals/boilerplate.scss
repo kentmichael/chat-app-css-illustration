@@ -2,6 +2,7 @@
 
 html {
   font-size: 100%;
+  overflow-x: hidden;
   box-sizing: border-box;
   font-family: var(--font-body);
 }
@@ -16,5 +17,20 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1rem;
-  background-color: var(--dk-gr-violet);
+  
+  @include breakpoint(medium) {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+  }
+}
+
+.grid {
+  display: grid;
+  gap: rem(70);
+
+  @include breakpoint(medium) {
+    gap: 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

@@ -1,0 +1,46 @@
+@use '../util' as *;
+
+.book {
+  place-self: center;
+  text-align: center;
+  transform: translateX(200%);
+  animation: header-in;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 100ms;
+  animation-fill-mode: forwards;
+
+  @include breakpoint(medium) {
+    padding: rem(20);
+  }
+
+  @include breakpoint(large) {
+    padding: rem(16) rem(7) rem(16) rem(16);
+    text-align: left;
+  }
+  
+
+  h1 {
+    font-size: rem(38);
+    color: var(--vry-dk-violet);
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 1rem;
+    color: var(--dk-gr-violet);
+  }
+
+  > * {
+    &::selection {
+      color: var(--lt-magenta);
+      background-color: var(--vry-dk-violet);
+    }
+  
+    &::-moz-selection {
+      color: var(--lt-magenta);
+      background-color: var(--vry-dk-violet);
+    }
+  }
+  
+}

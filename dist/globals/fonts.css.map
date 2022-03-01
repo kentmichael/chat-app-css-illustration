@@ -1,1 +1,1 @@
-{"version":3,"sources":["globals/fonts.scss","globals/fonts.css"],"names":[],"mappings":"AAAA,MACE,0CCCF","file":"globals/fonts.css","sourcesContent":[":root {\r\n  --font-body: font-family: 'Rubik', sans-serif;\r\n}",":root {\n  --font-body: font-family: \"Rubik\", sans-serif;\n}"]}
+{"version":3,"sources":["globals/fonts.scss","globals/fonts.css"],"names":[],"mappings":"AAAA,MACE,8BCCF","file":"globals/fonts.css","sourcesContent":[":root {\r\n  --font-body: 'Rubik', sans-serif;\r\n}",":root {\n  --font-body: \"Rubik\", sans-serif;\n}"]}

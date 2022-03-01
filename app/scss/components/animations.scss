@@ -1,0 +1,109 @@
+@use '../util' as *;
+
+@keyframes online-ind {
+  0% {
+    background-color: hsl(107, 100%, 51%);
+  }
+  50% {
+    background-color: hsl(107, 65%, 53%);
+  }
+  100% {
+    background-color: hsl(107, 100%, 51%);
+  }
+}
+
+@keyframes header-in {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes app-vibrate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  20% {
+    transform: rotateZ(-10deg);
+  }
+  35% {
+    transform: rotateZ(-15deg);
+  }
+  50% {
+    transform: rotateZ(10deg);
+  }
+  65% {
+    transform: rotateZ(-15deg);
+  }
+  80% {
+    transform: rotateZ(10deg);
+  }
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+@keyframes sms-l1 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes sms-l2 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes sms-l3 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes sms-r1 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes sms-r2 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes sms-r3 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes book {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

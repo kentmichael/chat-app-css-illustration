@@ -1,2 +1,2 @@
-html{box-sizing:border-box;font-family:var(--font-body);font-size:100%}*,:after,:before{box-sizing:inherit}body{background-color:var(--dk-gr-violet);font-size:1rem;margin:0;padding:0}
+html{box-sizing:border-box;font-family:var(--font-body);font-size:100%;overflow-x:hidden}*,:after,:before{box-sizing:inherit}body{font-size:1rem;margin:0;padding:0}@media (min-width:40em){body{display:grid;height:100vh;place-content:center}}.grid{display:grid;gap:4.375rem}@media (min-width:40em){.grid{gap:0;grid-template-columns:repeat(2,1fr)}}
 /*# sourceMappingURL=boilerplate.css.map */
