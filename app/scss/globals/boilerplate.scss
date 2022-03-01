@@ -33,7 +33,7 @@ body {
   width: 50%;
   height: 55%;
   border-radius: 0 0 rem(1000) 0;
-  background-color: var(--lt-violet);
+  background: linear-gradient(to top, var(--lt-violet), var(--vry-lt-magenta));
 
   @include breakpoint(medium) {
     width: 40%;
