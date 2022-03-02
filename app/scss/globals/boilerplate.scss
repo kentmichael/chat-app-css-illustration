@@ -19,7 +19,6 @@ body {
   padding: 0;
   font-size: 1rem;
   overflow-x: hidden;
-  height: auto;
   
   @include breakpoint(medium) {
     height: 100vh;

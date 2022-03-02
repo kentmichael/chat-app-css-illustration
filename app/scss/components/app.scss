@@ -146,7 +146,7 @@
 
     &-txt1 {
       transform: scale(0);
-      animation: sms-l1;
+      animation: sms-in;
       animation-duration: 700ms;
       animation-timing-function: ease-in;
       animation-delay: 3.8s;
@@ -155,7 +155,7 @@
 
     &-txt2 {
       transform: scale(0);
-      animation: sms-l2;
+      animation: sms-in;
       animation-duration: 700ms;
       animation-timing-function: ease-in;
       animation-delay: 5.1s;
@@ -164,7 +164,7 @@
 
     &-txt3 {
       transform: scale(0);
-      animation: sms-l3;
+      animation: sms-in;
       animation-duration: 700ms;
       animation-timing-function: ease-in;
       animation-delay: 10.9s;
@@ -178,7 +178,7 @@
     &-img {
       padding: 0;
       transform: scale(0);
-      animation: sms-r1;
+      animation: sms-in;
       animation-duration: 700ms;
       animation-timing-function: ease-in;
       animation-delay: 6.7s;
@@ -197,7 +197,7 @@
 
     &-txt1 {
       transform: scale(0);
-      animation: sms-r2;
+      animation: sms-in;
       animation-duration: 700ms;
       animation-timing-function: ease-in;
       animation-delay: 8s;
@@ -206,7 +206,7 @@
 
     &-txt2 {
       transform: scale(0);
-      animation: sms-r3;
+      animation: sms-in;
       animation-duration: 700ms;
       animation-timing-function: ease-in;
       animation-delay: 9.3s;
@@ -232,7 +232,7 @@
     background-image: linear-gradient(to right, var(--lt-magenta), var(--lt-violet));
     border-radius: rem(13) rem(13) rem(13) rem(3);
     transform: scale(0);
-    animation: book;
+    animation: sms-in;
     animation-duration: 700ms;
     animation-timing-function: ease-in;
     animation-delay: 12.6s;
@@ -300,6 +300,11 @@
       text-align: right;
       font-size: rem(14);
       font-weight: 700;
+      animation: text-highlight;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+      animation-delay: 14s;
+      animation-iteration-count: infinite;
     }
   }
 }
